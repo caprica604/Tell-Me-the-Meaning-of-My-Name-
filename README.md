@@ -132,7 +132,7 @@
 
       try {
         const response = await fetch(`https://api.api-ninjas.com/v1/babynames?name=${name}`, {
-          headers: { 'X-Api-Key': 'demo' } // Replace with your own API key
+          headers: { 'oTKG9oya0S1PET7CM7ZB/g==9zaZUuFK7swiofHw': 'demo' } // Replace with your own API key
         });
 
         if (!response.ok) throw new Error("Not found");
